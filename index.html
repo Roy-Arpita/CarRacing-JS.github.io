@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Car Racing</title>
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" a href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Bungee+Shade&family=Gorditas&family=Rye&family=Fraunces:ital,wght@1,500&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="carGame">
+       <div class="name hide"></div>
+       <div class="heading">Welcome to the world of car Racing</div>
+       <div class="score"></div>
+       <div class="startScreen">
+            <div class="LeftSide">
+                <div class="tag">
+                    <label for="name"><b>Enter Your Name:</b></label>
+                    <input type="text" autocomplete="off" placeholder="Name is required" name="name" id="name" maxlength="14" required>
+                    <p>Use Arrow Keys To Move Your Car.</p>          
+                    <p>If You Hit Another Car You Loose.</p>
+                </div>
+                <button class="clickStart"><b>&nbsp; Click To Start &nbsp;</b></button>
+            </div>
+            <div class="imagesForm">
+              <img src="images/car.png" class="theCar" alt="loading Image" style="display: block; ">
+              <img src="images/arrows.png" class="theArrow" alt="loading Image" style="height: 100px; width: 130px; display: block;"> 
+            </div> 
+            <br>
+            <p class="developer"> -Developed By ARPITA ROY </p>
+       </div>
+       <div class="gameArea hide"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
